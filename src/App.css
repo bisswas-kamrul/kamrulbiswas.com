@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@theme {
+  --font-kamrul: "Oswald", sans-serif; 
+}
+span.sr-only {
+  display: none !important;
+}
