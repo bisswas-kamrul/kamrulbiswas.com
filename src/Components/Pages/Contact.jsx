@@ -13,7 +13,7 @@ const Contact = () => {
     e.preventDefault();
 
     try {
-      await axios.post("https://kamrulbiswaswithcodexbackend-com.onrender.com/send-email", form);
+      await axios.post("https://kamrulbiswaswithcodexbackend.onrender.com/send-email", form);
 
       alert("Message sent successfully!");
 
